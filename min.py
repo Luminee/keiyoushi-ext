@@ -29,7 +29,7 @@ for item in data:
         filtered_data.append(item)
 
 # 将过滤后的数据写入当前目录的 luminee-index.min.json
-output_file = 'luminee-index.min.json'
+output_file = 'index.min.json'
 with open(output_file, 'w', encoding='utf-8') as f:
     # 使用 ensure_ascii=False 保证中文等非ASCII字符正确显示
     # 使用 separators 移除不必要的空格，生成紧凑的JSON
