@@ -28,14 +28,11 @@ for item in data:
     if not should_filter:
         filtered_data.append(item)
 
-# 确保输出目录存在
-output_dir = 'luminee'
-os.makedirs(output_dir, exist_ok=True)
-
-# 将过滤后的数据写入 luminee/index.min.json
-with open(os.path.join(output_dir, 'index.min.json'), 'w', encoding='utf-8') as f:
+# 将过滤后的数据写入当前目录的 luminee-index.min.json
+output_file = 'luminee-index.min.json'
+with open(output_file, 'w', encoding='utf-8') as f:
     # 使用 ensure_ascii=False 保证中文等非ASCII字符正确显示
     # 使用 separators 移除不必要的空格，生成紧凑的JSON
     json.dump(filtered_data, f, ensure_ascii=False, separators=(',', ':'))
 
-print(f"处理完成！\n- 原数据项数: {len(data)}\n- 过滤后数据项数: {len(filtered_data)}\n- 输出文件: {os.path.join(output_dir, 'index.min.json')}")
+print(f"处理完成！\n- 原数据项数: {len(data)}\n- 过滤后数据项数: {len(filtered_data)}\n- 输出文件: {output_file}")
