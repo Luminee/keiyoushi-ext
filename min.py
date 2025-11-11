@@ -3,13 +3,13 @@ import os
 
 # 预设需要过滤掉的关键词列表（不需要包含前缀）
 # 系统会自动添加 'Tachiyomi: ' 前缀并进行全等匹配
-filter_keywords = ['3Hentai', '3600000 Beauty', 'BlackToon', 'Dragon Ball Multiverse', 'Hachiraw', 'MangaRaw', 'Manhwa Raw', 'Manhwa Toon', 'ManyToonClub', 'Meitua.top', 'NovelCrow', 'Picacomic', 'PornComix', 'Raw18', 'Roumanwu', 'YKMH']
+filter_keywords = ['3Hentai', '3600000 Beauty', 'BlackToon', 'Dragon Ball Multiverse', 'E-Hentai', 'Hachiraw', 'MangaRaw', 'Manhwa Raw', 'Manhwa Toon', 'ManyToonClub', 'Meitua.top', 'MyReadingManga', 'NovelCrow', 'NovelCool', 'Picacomic', 'PornComix', 'Raw18', 'Roumanwu', 'YKMH']
 
 # 名称前缀
 NAME_PREFIX = 'Tachiyomi: '
 
 # 定义允许保留的语言列表
-allowed_languages = ['all', 'en', 'ja', 'ko', 'zh', 'other', 'zh-Hans', 'zh-Hant']
+allowed_languages = ['all', 'en', 'ja', 'ko', 'zh']
 
 # 读取 index.json 文件
 with open('index.json', 'r', encoding='utf-8') as f:
