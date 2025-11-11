@@ -8,6 +8,9 @@ filter_keywords = ['3Hentai', '3600000 Beauty', 'BlackToon', 'Dragon Ball Multiv
 # 名称前缀
 NAME_PREFIX = 'Tachiyomi: '
 
+# 定义允许保留的语言列表
+allowed_languages = ['all', 'en', 'ja', 'ko', 'zh', 'other', 'zh-Hans', 'zh-Hant']
+
 # 读取 index.json 文件
 with open('index.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
@@ -24,8 +27,20 @@ for item in data:
         if item_name == full_name_to_filter:
             should_filter = True
             break
-    # 如果不应该过滤，则保留该项
+    
+    # 如果不应该过滤，则保留该项并处理sources
     if not should_filter:
+        # 检查并过滤sources字段中的语言
+        if 'sources' in item and isinstance(item['sources'], list):
+            # 过滤sources，只保留允许的语言
+            filtered_sources = []
+            for source in item['sources']:
+                source_lang = source.get('lang', '')
+                if source_lang in allowed_languages:
+                    filtered_sources.append(source)
+            # 更新item的sources为过滤后的列表
+            item['sources'] = filtered_sources
+        
         filtered_data.append(item)
 
 # 将过滤后的数据写入当前目录的 luminee-index.min.json
