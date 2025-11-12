@@ -2,26 +2,20 @@
 
 ## 基本信息
 - 原数据项数: 1276
-- 过滤后数据项数: 640
+- 过滤后数据项数: 634
 - 输出文件: index.min.json
 
 ## 按资源数量分组
 
-### 资源数 1 (592个)
+### 资源数 1 (586个)
 ```
 AHottie
-BaoBua
 Buon Dua
-Comic Growl
 ComicsKingdom
 Comics Valley
-Comicz.net v2
 Comikey
 Commit Strip
-Coomer
 CosplayTele
-Danbooru
-DeviantArt
 Elite Babes
 Everia.club
 EveriaClub (unoriginal)
@@ -668,6 +662,6 @@ Dynasty
 ```
 
 ## 整体统计
-- 总资源数: 640
-- 含有source的资源数: 640
-- 总source数: 753
+- 总资源数: 634
+- 含有source的资源数: 634
+- 总source数: 747
