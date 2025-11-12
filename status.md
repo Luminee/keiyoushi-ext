@@ -2,12 +2,12 @@
 
 ## 基本信息
 - 原数据项数: 1276
-- 过滤后数据项数: 634
+- 过滤后数据项数: 629
 - 输出文件: index.min.json
 
 ## 按资源数量分组
 
-### 资源数 1 (586个)
+### 资源数 1 (584个)
 ```
 AHottie
 Buon Dua
@@ -552,8 +552,6 @@ Twi4
 WeLoveMangaOne
 Young Animal
 Young Champion
-RawDEX
-11toon
 Toonkor
 Baimangu (Darpou)
 Baka Manhua
@@ -597,7 +595,7 @@ Zazhimi
 Zerobyw
 ```
 
-### 资源数 2 (14个)
+### 资源数 2 (13个)
 ```
 Cubari
 Hennojin
@@ -612,10 +610,9 @@ Webtoons.com Translations
 xkcd
 VIZ
 Weekly Young Magazine
-NewToki / ManaToki
 ```
 
-### 资源数 3 (12个)
+### 资源数 3 (11个)
 ```
 Comick (Unoriginal)
 GlobalComix
@@ -628,10 +625,9 @@ Manhwa18.cc
 NamiComi
 Pururin
 Naver Comic
-Wolf.com
 ```
 
-### 资源数 4 (13个)
+### 资源数 4 (12个)
 ```
 AsmHentai
 Comic Fury
@@ -644,7 +640,6 @@ Manga Hosted
 MangaPark
 MangaReader
 NHentai
-Pixiv
 Simply Hentai
 ```
 
@@ -662,6 +657,6 @@ Dynasty
 ```
 
 ## 整体统计
-- 总资源数: 634
-- 含有source的资源数: 634
-- 总source数: 747
+- 总资源数: 629
+- 含有source的资源数: 629
+- 总source数: 736
