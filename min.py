@@ -3,7 +3,7 @@ import os
 
 # 预设需要过滤掉的关键词列表（不需要包含前缀）
 # 系统会自动添加 'Tachiyomi: ' 前缀并进行全等匹配
-filter_keywords = ['11toon', '3Hentai', '3600000 Beauty', 'BaoBua', 'BlackToon', 'Comic Growl', 'Comicz.net v2', 'Coomer', 'Danbooru', 'DeviantArt', 'Dragon Ball Multiverse', 'E-Hentai', 'Hachiraw', 'MangaRaw', 'Manhwa Raw', 'Manhwa Toon', 'ManyToonClub', 'Meitua.top', 'MyReadingManga', 'NewToki / ManaToki', 'NovelCrow', 'NovelCool', 'Picacomic', 'Pixiv', 'PornComix', 'Raw18', 'RawDEX', 'Roumanwu', 'Wolf.com', 'YKMH']
+filter_keywords = ['11toon', '3Hentai', '3600000 Beauty', '92Manhua', 'AHottie', 'Akuma', 'Baimangu (Darpou)', 'Baka Manhua', 'BaoBua', 'Baozi Manhua', 'BH3', 'BlackToon', 'CartoonMad', 'COLAMANGA', 'Comico', 'Comics Valley', 'Comic Growl', 'Comicz.net v2', 'Coomer', 'Danbooru', 'DeviantArt', 'Dragon Ball Multiverse', 'Dumanwu', 'E-Hentai', 'Hachiraw', 'Happymh', 'HentaiEra', 'HentaiFox', 'HentaiHand', 'Hitomi', 'IMHentai', 'Luscious', 'Manga Ball', 'Manga18Me', 'MangaPark', 'MangaRaw', 'MangaReader', 'Manhuaren', 'Manhuawu', 'Manhwa-raw', 'Manhwa18.cc', 'Manhwa Raw', 'Manhwa Toon', 'Manwa', 'ManyToonClub', 'Meitua.top', 'MH1234', 'MyReadingManga', 'NewToki / ManaToki', 'nHentai.com (unoriginal)', 'NovelCrow', 'NovelCool', 'PandaChaika', 'Picacomic', 'Pixiv', 'PornComix', 'Raw18', 'RawDEX', 'Roumanwu', 'Rumanhua', 'Simply Hentai', 'Terra Historicus', 'Tongli', 'Toptoon.net', 'Wolf.com', 'Yidan Girl', 'YKMH', 'Zaimanhua', 'Zazhimi']
 
 # 名称前缀
 NAME_PREFIX = 'Tachiyomi: '
