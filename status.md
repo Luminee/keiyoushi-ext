@@ -2,27 +2,15 @@
 
 ## 基本信息
 - 原数据项数: 1268
-- 过滤后数据项数: 31
+- 过滤后数据项数: 20
 - 输出文件: index.min.json
 
 ## 按资源数量分组
 
-### 资源数 1 (31个)
+### 资源数 1 (20个)
 ```
 Buon Dua
 CosplayTele
-Cubari
-Elite Babes
-Everia.club
-EveriaClub (unoriginal)
-Femjoy Hunter
-FoamGirl
-FTV Hunter
-Grabber Zone
-Hentai Cosplay
-HNI-Scantrad
-Joymii Hub
-Junmeitu
 MangaForFree.net
 MissKon
 Photos18
@@ -38,11 +26,12 @@ HANMAN18
 Jinman Tiantang
 Mangabz
 ManHuaGui
+Miaoqu Manhua
 WNACG
 Zerobyw
 ```
 
 ## 整体统计
-- 总资源数: 31
-- 含有source的资源数: 31
-- 总source数: 31
+- 总资源数: 20
+- 含有source的资源数: 20
+- 总source数: 20
