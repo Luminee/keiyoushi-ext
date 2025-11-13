@@ -9,7 +9,7 @@ filter_keywords = ['11toon', '3Hentai', '3600000 Beauty', 'BaoBua', 'BlackToon',
 NAME_PREFIX = 'Tachiyomi: '
 
 # 定义允许保留的语言列表
-allowed_languages = ['all', 'en', 'ja', 'ko', 'zh']
+allowed_languages = ['all', 'zh']
 
 # 读取 index.json 文件
 with open('index.json', 'r', encoding='utf-8') as f:
