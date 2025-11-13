@@ -1,8 +1,8 @@
 # 资源统计报告
 
 ## 基本信息
-- 原数据项数: 1276
-- 过滤后数据项数: 70
+- 原数据项数: 1268
+- 过滤后数据项数: 71
 - 输出文件: index.min.json
 
 ## 按资源数量分组
@@ -74,11 +74,12 @@ WNACG
 Zerobyw
 ```
 
-### 资源数 2 (6个)
+### 资源数 2 (7个)
 ```
 AsmHentai
 Bato.to
 Comic Fury
+HDoujin
 SchaleNetwork
 LANraragi
 NHentai
@@ -90,6 +91,6 @@ Komga
 ```
 
 ## 整体统计
-- 总资源数: 70
-- 含有source的资源数: 70
-- 总source数: 78
+- 总资源数: 71
+- 含有source的资源数: 71
+- 总source数: 80
